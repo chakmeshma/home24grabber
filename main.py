@@ -11,9 +11,9 @@ results_seller_ids_file = 'sellerids'
 results_seller_infos = list()
 results_seller_infos_file = 'sellerinfos'
 
-max_sim_connection = 30
+max_sim_connection = 500
 targets_head_url = [
-    (46861, 156126, '5.112.86.227')
+    (46861, 156126, '108.181.190.250')
 ]
 http_pool = urllib3.PoolManager(max_sim_connection)
 
@@ -50,17 +50,14 @@ def dispatch_head(_max_: int, _id_: int, userip: str):
     targets = set()
     futures = list()
 
-    pageCounter = 0
+    steps = 60
 
-    for i in range(0, _max_, 60):
-        pageCounter += 1
-
+    for i in range(0, _max_, steps):
         endUrl = url_temp.format(
-            ___FIRST___=60,
+            ___FIRST___=steps,
             ___OFFSET___=i,
             ___ID___=_id_,
-            ___USERIP___=userip,
-            ___PAGE___=pageCounter
+            ___USERIP___=userip
         )
 
         targets.add(endUrl)
@@ -166,12 +163,12 @@ def append_results_file(new_results: set, file_name: str):
 parser = argparse.ArgumentParser()
 parser.add_argument('mode', type=str, help='operation mode',
                     choices=('get-products', 'extract-seller-ids', 'extract-seller-infos'))
-parser.add_argument('it', type=int, help='iterations')
+parser.add_argument('-i', '--iterations', type=int)
 
 args = parser.parse_args()
 
 if args.mode == 'get-products':
-    for it in range(0, args.it):
+    for it in range(0, args.iterations):
         print('Fetching product pages... [iteration {}]'.format(it))
 
         for x in targets_head_url:
@@ -181,13 +178,16 @@ if args.mode == 'get-products':
 
         print('Found {} new products\t ({} total)'.format(appendResult[1] - appendResult[0], appendResult[1]))
 elif args.mode == 'extract-seller-ids':
-    print('Extracting seller ids...')
+    with open(results_product_pages_file, 'rb') as file_obj:
+        results_product_pages = pickle.load(file_obj)
+
+    print('Extracting seller ids from {} product pages...'.format(len(results_product_pages)))
 
     extract_sellers_ids()
 
     print('Found {} seller ids'.format(len(results_seller_ids)))
 elif args.mode == 'extract-seller-infos':
-    print('Extracting sellers infos...')
+    print('Extracting seller infos...')
 
     extract_sellers_info()
 
