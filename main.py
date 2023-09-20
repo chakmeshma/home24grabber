@@ -8,10 +8,10 @@ results_product_pages = set()
 results_product_pages_file = 'products'
 results_seller_ids = set()
 results_seller_ids_file = 'sellerids'
-results_seller_infos = list()
+results_seller_infos = dict()
 results_seller_infos_file = 'sellerinfos'
 
-max_sim_connection = 500
+max_sim_connection = 10
 targets_head_url = [
     (46861, 156126, '108.181.190.250')
 ]
@@ -70,7 +70,7 @@ def dispatch_head(_max_: int, _id_: int, userip: str):
     executor.shutdown()
 
 
-def extract_product_id(htmldata: str):
+def extract_product_seller_id(htmldata: str):
     idStarterStr = '{&#x22;id&#x22;:&#x22;'
     idEnderStr = '&#x22'
 
@@ -86,9 +86,9 @@ def extract_seller(url: str):
     resp = http_pool.request('GET', url)
     respStr = resp.data.decode('utf-8')
 
-    productID = extract_product_id(respStr)
+    sellerID = extract_product_seller_id(respStr)
 
-    results_seller_ids.add(productID)
+    results_seller_ids.add(sellerID)
 
     resp.release_conn()
 
@@ -121,7 +121,7 @@ def extract_seller_info(seller_id: str):
     needed_info = resp.json()['data']['shop']
     needed_info.pop('legalInfo', None)
 
-    results_seller_infos.append(needed_info)
+    results_seller_infos[seller_id] = needed_info
 
     resp.release_conn()
 
@@ -163,38 +163,37 @@ def append_results_file(new_results: set, file_name: str):
 parser = argparse.ArgumentParser()
 parser.add_argument('mode', type=str, help='operation mode',
                     choices=('get-products', 'extract-seller-ids', 'extract-seller-infos'))
-parser.add_argument('-i', '--iterations', type=int)
+parser.add_argument('-it', '--iterations', type=int)
 
 args = parser.parse_args()
 
 if args.mode == 'get-products':
     for it in range(0, args.iterations):
-        print('Fetching product pages... [iteration {}]'.format(it))
-
+        print('Fetching product pages... [iteration {}]'.format(it + 1))
         for x in targets_head_url:
             dispatch_head(x[0], x[1], x[2])
-
         appendResult = append_results_file(results_product_pages, results_product_pages_file)
-
         print('Found {} new products\t ({} total)'.format(appendResult[1] - appendResult[0], appendResult[1]))
+        reset_for_iteration()
 elif args.mode == 'extract-seller-ids':
-    with open(results_product_pages_file, 'rb') as file_obj:
-        results_product_pages = pickle.load(file_obj)
+    for it in range(0, args.iterations):
+        with open(results_product_pages_file, 'rb') as file_obj:
+            results_product_pages = pickle.load(file_obj)
+        print(
+            'Extracting seller ids from {} product pages... [iteration {}]'.format(len(results_product_pages), it + 1))
+        extract_sellers_ids()
+        appendResult = append_results_file(results_seller_ids, results_seller_ids_file)
+        print('Found {} new seller ids\t ({} total)'.format(appendResult[1] - appendResult[0], appendResult[1]))
+        reset_for_iteration()
 
-    print('Extracting seller ids from {} product pages...'.format(len(results_product_pages)))
-
-    extract_sellers_ids()
-
-    print('Found {} seller ids'.format(len(results_seller_ids)))
 elif args.mode == 'extract-seller-infos':
-    print('Extracting seller infos...')
-
+    with open(results_seller_ids_file, 'rb') as file_obj:
+        results_seller_ids = pickle.load(file_obj)
+    print('Extracting seller infos from {} seller ids...'.format(len(results_seller_ids)))
     extract_sellers_info()
-
     print('Found {} seller info'.format(len(results_seller_infos)))
-    with open("results", "wb") as f:
+    with open(results_seller_infos_file, "wb") as f:
         pickle.dump(results_seller_infos, f)
-
     print('{} seller info'.format(len(results_seller_infos)) + ' saved.')
 else:
     pass
