@@ -2,6 +2,7 @@ import argparse
 import os
 import pickle
 from concurrent.futures import ThreadPoolExecutor, wait
+from requests import get
 import urllib3
 
 results_product_pages = set()
@@ -11,9 +12,9 @@ results_seller_ids_file = 'sellerids'
 results_seller_infos = dict()
 results_seller_infos_file = 'sellerinfos'
 
-max_sim_connection = 10
+max_sim_connection = 100
 targets_head_url = [
-    (46861, 156126, '108.181.190.250')
+    (156126, 46861)
 ]
 http_pool = urllib3.PoolManager(max_sim_connection)
 
@@ -37,7 +38,7 @@ def fetch_products(url: str):
         resp.release_conn()
 
 
-def dispatch_head(_max_: int, _id_: int, userip: str):
+def dispatch_head(_id_: int, _max_: int):
     url_temp = ('https://www.home24.de/graphql?extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C'
                 '%22sha256Hash%22%3A%224c0db1839cdad663e84602f7172cfc894d8201a350ea42308caad436f056238e%22%7D%7D'
                 '&variables=%7B%22urlParams%22%3A%22%22%2C%22locale%22%3A%22de_DE%22%2C%22first%22%3A{___FIRST___}%2C'
@@ -49,6 +50,8 @@ def dispatch_head(_max_: int, _id_: int, userip: str):
     executor = ThreadPoolExecutor(max_sim_connection)
     targets = set()
     futures = list()
+
+    userip = get('https://api.ipify.org').content.decode('utf8')
 
     steps = 60
 
@@ -171,7 +174,7 @@ if args.mode == 'get-products':
     for it in range(0, args.iterations):
         print('Fetching product pages... [iteration {}]'.format(it + 1))
         for x in targets_head_url:
-            dispatch_head(x[0], x[1], x[2])
+            dispatch_head(x[0], x[1])
         appendResult = append_results_file(results_product_pages, results_product_pages_file)
         print('Found {} new products\t ({} total)'.format(appendResult[1] - appendResult[0], appendResult[1]))
         reset_for_iteration()
