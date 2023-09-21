@@ -12,7 +12,7 @@ results_seller_ids_file = 'sellerids'
 results_seller_infos = dict()
 results_seller_infos_file = 'sellerinfos'
 
-max_sim_connection = 300
+max_sim_connection = 100
 targets_head_url = [
     (156126, 46861)
 ]
@@ -119,7 +119,7 @@ def extract_seller_info(seller_id: str):
 
     url = url_template.replace('_____seller__id______', seller_id)
 
-    resp = urllib3.request('GET', url)
+    resp = http_pool.request('GET', url, retries=urllib3.Retry(10, 10, 10))
 
     needed_info = resp.json()['data']['shop']
     needed_info.pop('legalInfo', None)
