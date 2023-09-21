@@ -1,212 +1,728 @@
+HOMING
+	Email: jan-peter.kind@indesfuggerhaus.de
+	Phone: 02264 20135624
+
+AT4 - petit mobilier plein d'idées
+	Email: serviceclient@at4.com
+	Phone: None
+
+Rotin Design
+	Email: contact@rotin-design.com
+	Phone: None
+
+Dyberg Larsen
+	Email: kundesupport@dyberglarsen.dk
+	Phone: +45 8877 2727
+
+VCM
+	Email: home24@vcm-gruppe.de
+	Phone: 07642 90789 -368
+
+Decorotika
+	Email: omer@ccbonline.co.uk
+	Phone: +44 117 318 5466
+
 MOYCOR
 	Email: rocio@moycorvic.es
 	Phone: None
 
-Meubles Cosy
-	Email:  contact@meubles-cosy.com
+Wallarena
+	Email: info@forwallviewer.eu
+	Phone: +4903034065658
+
+CARO-Möbel
+	Email: info@caro-moebel.de
+	Phone: +4938432184900
+
+SMAAJETTE
+	Email: office@smaajette.de
+	Phone: 08992333597
+
+Moebelnet.de GmbH
+	Email: info@moebelnet.de
+	Phone: 0461-57498975
+
+Malagoon
+	Email: info@malagoon.com
+	Phone: +31612416831
+
+Sanfino
+	Email: service@sanfino.eu
+	Phone: +49 (0) 8656 9895138
+
+New Edition
+	Email: b2c@newedition.nl
+	Phone: +31238009900
+
+Home Deluxe
+	Email: info@homedeluxe.de
+	Phone: +49574361810
+
+riess-ambiente.de
+	Email: home24@riess-ambiente.de
+	Phone: 041018040600
+
+MTOnlinehandel
+	Email: service@mtonlinehandel.de
+	Phone: +49210217849
+
+TeppichCenter24
+	Email: home24@teppichcenter24.de
 	Phone: None
 
-ALTDECOR
-	Email: home24@altdecor.de
+HOMESCAPES
+	Email: support@homescapes.de
+	Phone: None
+
+Relaxdays
+	Email: support@relaxdays.de
+	Phone: +49 (0) 345 56 67 09 30
+
+EMKE
+	Email: Home24_service@emke-online.de
+	Phone: +49 211 15789618
+
+MACABANE
+	Email: sav@meubles-macabane.com
+	Phone: +49231062027
+
+ARTGalerie
+	Email: service@artgalerie.de
+	Phone: +49-241-88690-88
+
+Feeby
+	Email: sklep@feeby.pl
+	Phone: None
+
+criston
+	Email: criston@hotmail.de
+	Phone: None
+
+EMUCA
+	Email: help@emucaonline.com
+	Phone: +34961667019
+
+simplyou
+	Email: service@prorena.de
+	Phone: +49 2505 936720
+
+DMORA
+	Email: clienti@dmora.it
+	Phone: +3934331467
+
+vidaXL
+	Email: home24@vidaxl.de
+	Phone: +493091734921
+
+Merax
+	Email: meraxotks@gmail.com
+	Phone: None
+
+BadeDu GmbH
+	Email: shop@badedu.de
+	Phone: +4935548642596
+
+Hoyz
+	Email: klantenservice@hoyz.nl
+	Phone: +31182796023
+
+Riva Home
+	Email: onlineretail@rivahome.com
+	Phone: None
+
+Krosno Glass
+	Email: ebayde@krosno.com
 	Phone: None
 
 Habitat Jardin DE
 	Email: market@habitatetjardin.com
 	Phone: None
 
-byoak
-	Email: marketplaces@beds.pl
-	Phone: +48 535410808
+Versa
+	Email: marketplaces@versa.es
+	Phone: +34944341400
 
-Relaxdays
-	Email: support@relaxdays.de
-	Phone: +49 (0) 345 56 67 09 30
+Aicasanitär
+	Email: h24@eaica.eu
+	Phone: 022412615519
 
-EMUCA
-	Email: help@emucaonline.com
-	Phone: +34961667019
+LARS NYSØM AT
+	Email: satisfaction@larsnysom.com
+	Phone: 0080011901190
 
-Loft 25 EU
-	Email: customercare@loft25group.com
+heute-wohnen DE
+	Email: home24@heute-wohnen.de
+	Phone: 07182-804020
+
+mokebo GmbH
+	Email: hello@mokebo.de
+	Phone: +4915125723990
+
+MB Moebel
+	Email: info@mueblesbonitos.com
+	Phone: None
+
+ondeco©  - Ihr Onlineshop für Fensterdekoration in Perfektion
+	Email: info@ondeco.de
+	Phone: +498004540181
+
+Zoomici
+	Email: support-clients@zoomici.com
 	Phone: None
 
 Hansiro_DE
 	Email: home24@hansiro.de
 	Phone: +4940 67509888
 
-Flieks
-	Email: flieksotks@gmail.com
+Multi Tradestore B.V.
+	Email: klantenservice@multitradestore.nl
+	Phone: +31202628800
+
+SVJ Home Decorations
+	Email: klantenservice@sfeervoorjou.nl
+	Phone: +31850608026
+
+Springos
+	Email: marketplace@springos.eu
+	Phone: +48692033271
+
+Meblito
+	Email: office@meblito.de
+	Phone: +49 800 000 2573
+
+Jardipolys
+	Email: contact@jardipolys.com
 	Phone: None
 
-Safavieh
-	Email: mila.catello@SAFAVIEH.COM
+ECD-Germany
+	Email: home24@ecdgermany.de
+	Phone: 022479168371
+
+Setpoint & MeineWunschleuchte
+	Email: info@setpoint.de
+	Phone: 02932/90267-12
+
+Casa-Moro
+	Email: office@casa-moro.de
+	Phone: 02421 394 8585
+
+TIKAMOON
+	Email: kontakt@tikamoon.com 
+	Phone: +49 40 87408863
+
+Vladon Möbel
+	Email: support@vladon.de
+	Phone: 05261667310
+
+Bopita
+	Email: sales@lion-international.com
+	Phone: +31 481 375 717
+
+VERCART
+	Email: contact@mxdeals.com
 	Phone: None
-
-Eugad GmbH
-	Email: home24@eugad.com
-	Phone: None
-
-Kawola
-	Email: home24@321moebel.de 
-	Phone: 063476068000
-
-Decorotika
-	Email: omer@ccbonline.co.uk
-	Phone: +44 117 318 5466
-
-Furnix GmbH
-	Email: klaudia.j.furnix@gmail.com
-	Phone: +49 151 507 88 404
-
-Merax
-	Email: meraxotks@gmail.com
-	Phone: None
-
-Moebelnet.de GmbH
-	Email: info@moebelnet.de
-	Phone: 0461-57498975
-
-Black Red White
-	Email: home24@brwsa.pl
-	Phone: None
-
-feldmann-wohnen
-	Email: info@feldmann-wohnen.de
-	Phone: 03811284250
 
 Nordlys
 	Email: info@nordlysfurniture.com
 	Phone: None
 
-AKL TRADE
-	Email: info@akl-trade.com
-	Phone: None
+emotion-24
+	Email: info@emotion-24.de
+	Phone: +4942159495216
 
-expendio
-	Email: home24@expendio.de
-	Phone: +49 34202 355120
+RNT by Really Nice Things
+	Email: clientes@reallynicethings.es
+	Phone: +34665644978
 
-Calicosy
-	Email: contact@calicosy.com
-	Phone: +33374098533
+Kauf-unique
+	Email: kundenservice@kauf-unique.de
+	Phone: 0800 72 44 943
 
-VS Venta-stock
-	Email: comercial01@somosventaonline.com
-	Phone: (+34)961741018
+ILP GmbH
+	Email: Home24@ilp-germany.de
+	Phone: 02381/99972-100
 
-CLP
-	Email: info@clp.de
-	Phone: +49 (0) 5232 69899-0
-
-riess-ambiente.de
-	Email: home24@riess-ambiente.de
-	Phone: 041018040600
-
-WOLTU GmbH
-	Email: support@woltu.eu
+Mister Sandman
+	Email: support@mister-sandman.de
 	Phone: None
 
 KONSIMO GmbH
 	Email: konsimo@konsimo.de
 	Phone: None
 
-CARO-Möbel
-	Email: info@caro-moebel.de
-	Phone: +4938432184900
-
-Bazaar Group
-	Email: home24@bazaar-group.de
-	Phone: +441670594133
-
-VCM
-	Email: home24@vcm-gruppe.de
-	Phone: 07642 90789 -368
-
-Mister Sandman
-	Email: support@mister-sandman.de
+WOLTU GmbH
+	Email: support@woltu.eu
 	Phone: None
 
-DMORA
-	Email: clienti@dmora.it
-	Phone: +3934331467
+Leomark DE
+	Email: info@leomark.pl
+	Phone: None
+
+Lumicom
+	Email: info@lumicom.it
+	Phone: +390423915669
+
+LOFT42
+	Email: info@loft42.nl
+	Phone: 0031851306897
+
+JOOP! LIVING
+	Email: customercare@joop-living.com
+	Phone: None
+
+Tapetenexpo
+	Email: info@ddept.nl
+	Phone: +31742454200
+
+COSTWAY
+	Email: FDShome24@outlook.com
+	Phone: None
+
+GoJungo
+	Email: home24@gojungo.com
+	Phone: 041819287430
+
+BDBD Deutschland
+	Email: kontakt@bdbd-web.com
+	Phone: +49 681 99 63 672
+
+Table & Kitchen
+	Email: info@tafelenkeuken.nl
+	Phone: None
+
+S-Style Möbel
+	Email: kundenservice@s-stylemoebel.de
+	Phone: +49309203854371
+
+RoomMates
+	Email: info@hcm-kinzel.eu
+	Phone: +49070469820
+
+Happy Friday
+	Email: fatiha@happyfriday.es
+	Phone: None
+
+SÄNGER
+	Email: info@bluespoon.de
+	Phone: 02234- 993 57 0
+
+Furnicato
+	Email: info@furnicato.de
+	Phone: +4966316011810
+
+TTF-Online
+	Email: home24@ttf-online.de
+	Phone: 052444059918
+
+Kawola
+	Email: home24@321moebel.de 
+	Phone: 063476068000
+
+Sollux Lighting Gmbh
+	Email: info@sollux-lighting.de
+	Phone: +4915172600606
+
+WCShop24
+	Email: kundenservice@wcshop24.de
+	Phone: 030/37 43 57 470
+
+Keter
+	Email: ecommerce_nl@keter.com
+	Phone: +31 161228300
+
+Aqualavos
+	Email: info@aqualavos.de
+	Phone: +4917684517345
+
+MANDALIKA Garden
+	Email: info@mandalika-living.com
+	Phone: None
+
+Homestyle4u
+	Email: info@homestyle4u.de
+	Phone: +493918189674
+
+LIGHTBYLUCIDE
+	Email: info@lightbylucide.com
+	Phone: None
+
+Destina Home
+	Email: kontakt@destinahome.de
+	Phone: None
+
+Kindsgut
+	Email: info@kindsgut.de
+	Phone: +49 30 863291000
+
+Safavieh
+	Email: mila.catello@SAFAVIEH.COM
+	Phone: None
+
+Karaca
+	Email: info@karaca.com
+	Phone: +49 0800 1977000
+
+Furnix GmbH
+	Email: klaudia.j.furnix@gmail.com
+	Phone: +49 151 507 88 404
+
+Unlimited_Online_Deals
+	Email: kontakt@unlimitedonline.deals
+	Phone: +49 6027 1219090
+
+Licht-Erlebnisse
+	Email: support@licht-erlebnisse.de
+	Phone: +49 371 240 80 916
+
+Josef Mäser GmbH
+	Email: e-commerce@maeser.at
+	Phone: None
+
+Eugad GmbH
+	Email: home24@eugad.com
+	Phone: None
+
+Black Red White
+	Email: home24@brwsa.pl
+	Phone: None
+
+TLP Brands
+	Email: hello@ocoza.com
+	Phone: +491627387496
+
+ILESTO
+	Email: info@ilesto.com
+	Phone:  +4315122882
+
+Wickey Gmbh & Co. KG
+	Email: home24@wickey.de
+	Phone: +49024545828490
+
+expendio
+	Email: home24@expendio.de
+	Phone: +49 34202 355120
+
+MaximaVida
+	Email: info@maximavida.com
+	Phone: +31544375445
+
+Loft 25 EU
+	Email: customercare@loft25group.com
+	Phone: None
+
+RED DECO
+	Email: support@batimex-import.fr
+	Phone: None
+
+Ambiente3000
+	Email: support@gl-gmbh.com
+	Phone: +49 221 500 550 30
+
+KIOM
+	Email: info@kiom24.de
+	Phone: +4983419080533
+
+Teamson Europe
+	Email: support@teamson.co.uk
+	Phone: +44 (0) 1952 916050
 
 Selsey
 	Email: office@selsey.de
 	Phone: +48 717 152 730 
 
-TIKAMOON
-	Email: kontakt@tikamoon.com 
-	Phone: +49 40 87408863
+VS Venta-stock
+	Email: comercial01@somosventaonline.com
+	Phone: (+34)961741018
 
-premiumXL
-	Email: info@premiumxl.de
-	Phone: +49 54120193610
+murimage®
+	Email: service@livingdecoration.com
+	Phone: +49 1577 39 586 49
 
-OK-Living
-	Email: home24@oskar-store.eu
-	Phone: 033812688740
+CULT at home GmbH
+	Email: support@cultathome.de
+	Phone: +49 287121910  645
 
-Home Collective
-	Email: hello@kidscollective.de
+AN-Commerce GmbH
+	Email: support@an-commerce.zendesk.com
+	Phone: +49 5250 604 9100
+
+gartenmoebel-einkauf
+	Email: info@gartenmoebel-einkauf.de
+	Phone: +492773745818
+
+wc-gestalten
+	Email: kundenservice@wc-gestalten.de
 	Phone: None
 
-home24 SE
-	Email: None
+SoBuy
+	Email: info@sobuy.de
+	Phone: +49 (0) 40 63307924
+
+feldmann-wohnen
+	Email: info@feldmann-wohnen.de
+	Phone: 03811284250
+
+b.k.licht
+	Email: info@bk-licht.eu
+	Phone: +49(0)89/4132499-00
+
+Lifestyle
+	Email: klantenservice@lifestyle.nl
+	Phone: 0534285891
+
+Weles Brands Shop
+	Email: service@weles.eu
+	Phone: +49 208 30 55 060 0
+
+Meubles Cosy
+	Email:  contact@meubles-cosy.com
+	Phone: None
+
+Sabre Paris
+	Email: contact@sabre.fr
+	Phone: None
+
+Kolbe
+	Email: support@sleepneo.com
+	Phone: None
+
+Mirjan24
+	Email: home24@mirjan24.de
+	Phone: None
+
+AKL TRADE
+	Email: info@akl-trade.com
 	Phone: None
 
 ANGEL CERDA
 	Email: info@angelcerda.com
 	Phone: +34962257762
 
-Max Winzer Polstermöbel
-	Email: service.home24@max-winzer.de
-	Phone: 09565 798-0
+Optisofa
+	Email: k.kasprzak@optisofa.com
+	Phone: +48602604492492
 
-Basiclabel
-	Email: marketplaces@basiclabel.nl
-	Phone: None
-
-vidaXL
-	Email: home24@vidaxl.de
-	Phone: +493091734921
-
-COSTWAY
-	Email: FDShome24@outlook.com
-	Phone: None
-
-moebel17
-	Email: service@moebel17.de
-	Phone: +4962158679285
-
-Kolbe
-	Email: support@sleepneo.com
-	Phone: None
-
-NAIPO
-	Email: support@mustbuy.eu
-	Phone: 04057199390
-
-SoBuy
-	Email: info@sobuy.de
-	Phone: +49 (0) 40 63307924
-
-heute-wohnen DE
-	Email: home24@heute-wohnen.de
-	Phone: 07182-804020
-
-Destina Home
-	Email: kontakt@destinahome.de
-	Phone: None
+Pinolino
+	Email: apapst@pinolino.de
+	Phone: +4925123929-21
 
 Stylefy
 	Email: info@stylefy.de
 	Phone: 030-403688000
 
+Housewares Digital GmbH
+	Email: service@housewares.digital
+	Phone: +4991518657430
+
+ALTDECOR
+	Email: home24@altdecor.de
+	Phone: None
+
+The Green Home Company
+	Email: info@thegreenhomecompany.nl
+	Phone: +31854014604
+
+Megafuchs
+	Email: info@megafuchs.de
+	Phone: 0172-9331000
+
+Jungle Fish
+	Email: info@junglefish.be
+	Phone: +32 3 301 40 00
+
+NAIPO
+	Email: support@mustbuy.eu
+	Phone: 04057199390
+
+Clic-Trade GmbH
+	Email: home24@clictrade.de
+	Phone: 022039479300
+
+Bilderwelten
+	Email: home24@bilderwelten.de
+	Phone: 035126170363
+
+Flieks
+	Email: flieksotks@gmail.com
+	Phone: None
+
+Home Collective
+	Email: hello@kidscollective.de
+	Phone: None
+
+benuta
+	Email: support@benuta.com
+	Phone: None
+
+OK-Living
+	Email: home24@oskar-store.eu
+	Phone: 033812688740
+
+Kontri
+	Email: home24@kontri.pl
+	Phone: +49 3030 807166
+
+byoak
+	Email: marketplaces@beds.pl
+	Phone: (+49) 0155 10 37 02 63
+
+Kiki Design
+	Email: info@livignohome.pl
+	Phone: +48604492492
+
+Yoko Design
+	Email: contact@yokodesign.fr
+	Phone: +33148459191
+
+EVOLD
+	Email: help@evold.ro
+	Phone: +40313330302
+
+Dutch home label
+	Email: info@dutchhomelabel.nl
+	Phone: None
+
+Lomadox
+	Email: hallo@lomado.de
+	Phone: +495223-48530-0
+
+moebel17
+	Email: service@moebel17.de
+	Phone: +4962158679285
+
+moebel-dich-auf
+	Email: service@moebel-dich-auf.de
+	Phone: +49 40-328 929570
+
+One Home
+	Email: info@onehome.de
+	Phone: None
+
+gardinenbox.de
+	Email: info@gardinenbox.de
+	Phone: None
+
+SellTec GmbH
+	Email: kundensupport@neuhaus-group.de
+	Phone: +49292297219290
+
+Channel Distribution
+	Email: sales@channeldistribution.nl
+	Phone: None
+
 Maison De Reve
 	Email: sales@johnsonstyle.com
 	Phone: None
 
-mokebo GmbH
-	Email: hello@mokebo.de
-	Phone: +4915125723990
+COFFEE LOVER
+	Email: hello@coffeelover.shop
+	Phone: None
+
+Calicosy
+	Email: contact@calicosy.com
+	Phone: +33374098533
+
+home24 SE
+	Email: None
+	Phone: None
+
+DON HIERRO
+	Email: info@donhierro.com
+	Phone: +34962822462
+
+Dutchdecor
+	Email: webshop@rogon.com
+	Phone: None
+
+Max Winzer Polstermöbel
+	Email: service.home24@max-winzer.de
+	Phone: 09565 798-0
+
+KARAT
+	Email: home24@velvet-trading.de
+	Phone: None
+
+AQUABATOS
+	Email: info@aquabatos.com
+	Phone: +491737588953
+
+Jardindeco.com
+	Email: savmarketplace@jardindeco.com
+	Phone: +493016639447
+
+Kreher
+	Email: info@kreher.de
+	Phone: 05208-9128-290
+
+Cadorabo-Shop
+	Email: kundenservice@cadorabo.de
+	Phone: 06095 9947584
+
+CLP
+	Email: info@clp.de
+	Phone: +49 (0) 5232 69899-0
+
+BRAST24
+	Email: home24service@brast24.de
+	Phone: +4989954598699
+
+VIZIOCUCINA
+	Email: customercare@viziotechnik.de
+	Phone: 074249751155
+
+Bazaar Group
+	Email: home24@bazaar-group.de
+	Phone: +441670594133
+
+roba kids
+	Email: service@roba-kids.com
+	Phone: +499562922150
+
+Sedex
+	Email: info@sedex.de
+	Phone: 0201798011
+
+A.S. Création Tapeten AG
+	Email: contact@as-creation.de
+	Phone: +49(0) 22 61/542-0
+
+premiumXL
+	Email: info@premiumxl.de
+	Phone: +49 54120193610
+
+KUNSTLOFT
+	Email: service@kunstloft.de
+	Phone: +498954847737
+
+wometo
+	Email: sales@wometo.de
+	Phone: +49 9961 70170 10
+
+WNM Group
+	Email: info@wnm-group.de
+	Phone: +3021780568
+
+Riviera Maison
+	Email: service@riviera-maison.nl
+	Phone: +31207232172
+
+Erwin Müller
+	Email: service@erwinmueller.de
+	Phone: +49082745255
+
+Aosom
+	Email: kontakt@aosom.de
+	Phone: None
+
+Luxentu
+	Email: info@logentu.de
+	Phone: +4996339349943
+
+EMAKO
+	Email: shop@emako.de
+	Phone: +493020179807
+
+Basiclabel
+	Email: marketplaces@basiclabel.nl
+	Phone: None
 
