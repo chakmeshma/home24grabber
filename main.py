@@ -12,7 +12,7 @@ results_seller_ids_file = 'sellerids'
 results_seller_infos = dict()
 results_seller_infos_file = 'sellerinfos'
 
-max_sim_connection = 100
+max_sim_connection = 300
 targets_head_url = [
     (156126, 46861)
 ]
