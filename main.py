@@ -86,7 +86,7 @@ def extract_product_seller_id(htmldata: str):
 
 
 def extract_seller(url: str):
-    resp = http_pool.request('GET', url)
+    resp = http_pool.request('GET', url, retries=urllib3.Retry(10, 10, 10))
     respStr = resp.data.decode('utf-8')
 
     sellerID = extract_product_seller_id(respStr)
