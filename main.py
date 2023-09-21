@@ -14,8 +14,16 @@ results_seller_infos_file = 'sellerinfos'
 
 max_sim_connection = 100
 targets_head_url = [
-    (156126, 46861)
+    (156126, 46861),  # Möbel
+    (156274, 11356),  # Gartenmöbel
+    (156130, 39021),  # Accessoires
+    (156194, 17425),  # Heimtextilien
+    (2021100101, 8222),  # Kinderzimmer
+    (2021091701, 12278),  # Küche
+    (2021091702, 7399),  # Badezimmer
+    (177557, 22317),  # Lampen
 ]
+
 http_pool = urllib3.PoolManager(max_sim_connection)
 
 
